@@ -1,12 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/5fsIc7xe)
-# Progetto-finale-2025-Cosestrane
-Progetto finale Programmazione Procedurale UniPG Informatica
+# Progetto Esame Programmazione Procedurale 2025/2026 - Cosestrane
 
-## Nome: 
+## Dati
+- Nome: Alessio
+- Cognome: Bistoni
+- Matricola: 342966
 
-## Cognome: 
+## Compilazione
+gcc -std=c11 -Wall -Wextra -c main.c
+gcc -std=c11 -Wall -Wextra -c gamelib.c
+gcc -o gioco main.o gamelib.o
 
-## Matricola:
 
-## Commenti/modifiche al progetto:
+## Esecuzione
+./gioco
+
 
